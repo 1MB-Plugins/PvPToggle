@@ -1,0 +1,29 @@
+main: com.github.aasmus.pvptoggle.PvPToggle
+softdepend: [ PlaceholderAPI, NametagEdit ]
+name: 1MBPvPToggle
+version: 1.7.2
+api-version: 1.21.11
+authors: [ aasmus (with modifications by the Red Fusion Team), the456gamer ]
+description: Plugin that allows players to toggle PvP state
+commands:
+  _pvp:
+    description: used to change PvP state.
+    usage: /_pvp
+    permission: pvptoggle.allow
+    permission-message: You don't have the pvptoggle.allow permission node.
+permissions:
+  pvptoggle.allow:
+    description: allows player to change pvp state
+    default: true
+  pvptoggle.others:
+    description: allows player to see other player's pvp state
+    default: op
+  pvptoggle.others.set:
+    description: allows player to set other players pvp state
+    default: op
+  pvptoggle.bypass:
+    description: allows player to bypass cooldown
+    default: op
+  pvptoggle.reload:
+    description: allows player to reload config
+    default: op
