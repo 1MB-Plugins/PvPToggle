@@ -32,7 +32,7 @@ repositories {
 dependencies {
     compileOnly("io.papermc.paper:paper-api:1.21.11-R0.1-SNAPSHOT")
     compileOnly("net.kyori:adventure-text-serializer-plain:4.26.1")
-    compileOnly("me.clip:placeholderapi:2.11.7")
+    compileOnly("me.clip:placeholderapi:2.12.2")
     compileOnly(":nametagedit-4.5.16")
     implementation("org.jspecify:jspecify:1.0.0")
 }
